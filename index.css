@@ -1,0 +1,1017 @@
+BODY TABLE {
+	PADDING-RIGHT: 0; PADDING-LEFT: 0; FONT-SIZE: small; PADDING-BOTTOM: 0; PADDING-TOP: 0; FONT-FAMILY: Arial, 'Microsoft Sans Serif', Verdana;
+}
+#printDiv {
+    DISPLAY: none;
+}
+
+.OnlineFormSummary
+{
+	border-right: #003399 1px solid;
+	border-top: #003399 1px solid;
+	border-left: #003399 1px solid;
+	color: #000000;
+	border-bottom: #003399 1px solid;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 100%;
+}
+
+.ReportTable
+{
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	font-size: 100%;
+	border-left: black 1px solid;
+	color: black;
+	border-bottom: black 1px solid;
+	font-family: Arial, Verdana, 'Microsoft Sans Serif';
+	background-color: #dcdcdc;
+}
+
+
+/*Tree menu*/
+.TreeView 
+{ 
+  background-color: white; 
+  border: 1px #4A6B74; 
+} 
+
+.TreeNode
+{
+	background-color: white;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 100%;
+	cursor: hand;
+	color: #073566;
+} 
+
+.ParentTreeNode
+{ 
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 100%;
+	cursor: hand;
+	font-weight: bold;
+}
+
+.RootTreeNode
+{
+    font-family: Arial, Verdana, Sans-serif;
+	font-size: 100%;
+	cursor: hand;
+	font-weight: bold;
+}
+
+.HoverTreeNode
+{
+	background-color: #dcdcdc;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 100%;
+	cursor: hand;
+	color: #073566;
+	font-weight: bold;
+} 
+
+.GridViewDivs 
+{
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  z-index: 1;
+  width: 830px;
+  height: 250px;
+  overflow: scroll;
+}
+
+.SelectedTreeNode
+{
+	background-color: #d3d3d3;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 100%;
+	cursor: hand;
+	font-weight: bold;
+} 
+
+/*Content Text*/
+
+.HeadingsText
+{
+	font-weight: bolder;
+	font-size: 120%;
+	color: #073566;
+	font-family: Arial, Verdana, 'Microsoft Sans Serif';
+}
+
+.MainHeadersText
+{
+	font-weight: bolder;
+	font-size: 120%;
+	text-transform: capitalize;
+	color: #073566;
+	font-family: Arial, Verdana, 'Microsoft Sans Serif';
+}
+
+.SubHeadersText
+{
+	font-weight: bolder;
+	font-size: 110%;
+	color: #053253;
+	font-family: Arial, Verdana, 'Microsoft Sans Serif';
+}
+
+.MinorHeadingText
+{
+	font-weight: bolder;
+	font-size: 100%;
+	color: #003367;
+	font-family: Arial, Verdana, 'Microsoft Sans Serif';
+}
+
+.UsernameText
+{
+	font-weight: bold;
+	font-size: 100%;
+	color: #ffffff;
+	font-family: Arial, Verdana, 'Microsoft Sans Serif';
+	background-color: transparent;
+}
+
+.GreySeperatorBar
+{
+	background-color: #8ea7a4;
+}
+
+.LiteGreySeperatorBar
+{
+	border-top:  solid 1px #57566F;
+	background-color: #E8E8E8;
+}
+
+.ApplicationButtonBar
+{
+	background-color: #D6D6D6;
+	height: 30px;
+	vertical-align: middle;
+	text-align: right;
+}
+
+.ListBoxText
+{
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.TreeLinksText
+{
+	font-size: 100%;
+	color: #215DA6;
+	font-family: Arial, Verdana, 'Microsoft Sans Serif';
+	background-color: transparent;
+	cursor: hand;
+	text-decoration: none;
+}
+
+.TreeLinksText:hover
+{ 
+	text-decoration: underline;
+}
+
+.NormalRow
+{
+	background-color:#D6D6D6;
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.AltTableRow
+{
+	background-color: #ffffff;
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.LinksText
+{
+	font-size: 100%;
+	color: #0e0f48;
+	font-family: Arial, Verdana, 'Microsoft Sans Serif';
+	background-color: transparent;
+	cursor: hand;
+	text-decoration: none;
+}
+
+.LinksText:hover
+{ 
+	text-decoration: underline;
+}
+
+.LinksText:visited
+{
+	color: #0100fd;
+}
+
+.DropdownListText
+{
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.DropdownListTextLong
+{
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	border : solid 1px black;
+	width: 285px;
+}
+
+.CheckboxText
+{
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.RadioButtonText
+{
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	margin-top: 0;
+	vertical-align: baseline;  
+}
+
+.LabelText
+{
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.HiddenLabelText
+{
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	display: none;
+}
+
+.ApplicantInfoLabelText
+{
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	vertical-align: top;
+}
+
+.Table
+{
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.TextboxText
+{
+	color: Black;
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.TextboxTextforRemarks
+{
+	color: Black;
+	font-size: 80%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.TextboxDate
+{
+	color: black;
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	width: 8em;
+}
+
+.TextboxWaterMark
+{
+	color: black;
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	width: 80px;
+}
+
+.TextboxDate
+{
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}	
+
+.TextboxTextLong
+{
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	width: 280px;
+}
+
+.ApplicationButtons
+{
+	font-size: 100%;
+	text-transform: capitalize;
+	color: black;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	background-color: #8ea7a4;
+	font-weight: bold;
+}
+
+.ApplicationMinorErrorText
+{
+	font-weight: bold;
+	font-size: 100%;
+	color: #cc0000;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.ApplicationClientReportErrorText
+{
+	font-weight:normal;
+	font-size: 80%;
+	color: #cc0000;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.ApplicationClientErrorText
+{
+	font-weight: bold;
+	font-size: 80%;
+	color: #cc0000;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.ApplicationNote
+{
+	font-weight: bold;
+	font-size: 80%;
+	color: #0033ff;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+body
+{ 
+	padding: 0; 
+	margin:auto;
+}
+
+/*Gridview / Listscreens*/
+.Grid, .RepeaterGrid
+{
+	background-color: #FFFFFF;
+	border: 1px solid #C0C0C0;
+	border-top-width: 0;
+	border-left-width: 0;
+	cursor: pointer;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 100%;
+}
+
+.GridHeader
+{
+	background-color: #0066cc;
+	border: 1px solid #57566F;
+	height: 28px;
+	font-size: 100%;
+	color: #ffffff;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-weight: bold;
+}
+
+.GridHeader a
+{ 
+	color: white;
+	text-decoration: underline;
+}
+
+.GridFooter
+{
+	border-left: 1px solid #C0C0C0;
+	padding: 5px;
+	background-color: #d2d8e6;
+	color: #000000;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 100%;
+}
+
+.Row 
+{ 
+	cursor: default; 
+	font-size: 100%;	
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	table-layout: fixed;
+	white-space: normal;	
+}
+
+.AlternatingRow
+{
+	background-color: #dcdcdc;
+	border-right: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 100%;
+	cursor: default;
+}
+
+.HighlightRow
+{
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 100%;
+	color: #990000;
+	font-weight: bold;
+}
+
+.Row table tr td {
+	border-right: 1px solid #C0C0C0 !important;
+}
+
+.AlternatingRow table tr td {
+	border-right: 1px solid #C0C0C0 !important;
+}
+
+.wrapper
+{
+	 word-break: break-all;
+}
+
+.nowrapper
+{
+	 white-space: pre;
+}
+
+.HoverRow
+{
+	background-color: #b0c4de;
+	padding: 2px;
+	padding-right: 3px;
+	border-right: 0;
+	border-bottom: 1px solid #9495A2;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 100%;
+	cursor: default;
+}
+
+.SelectedRow
+{
+	background-color: #b0c4de;
+	padding: 2px;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 100%;
+	border-bottom: 1px solid #4B4B6F;
+	border-top: 1px solid #4B4B6F;
+	border-right: 0;
+	cursor: default;
+}
+	
+.appSummaryTable
+{
+	background-color: #FFFFFF;
+	cursor: pointer;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 110%;
+}
+
+.appSummaryTableInner
+{
+	background-color: #FFFFFF;
+	cursor: pointer;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 80%;
+	border: 0;
+}
+
+.appSummarySubHeadersText
+{
+	color: #053253;
+	font-family: Arial, Verdana, 'Microsoft Sans Serif';
+	font-weight: bold;
+}
+
+.ApplicationLinks
+{
+	font-size: 90%;
+	color: #053253;
+	font-family: Arial, Verdana, 'Microsoft Sans Serif';
+	background-color: transparent;
+	cursor: hand;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.ApplicationLinks:hover
+{ 
+	text-decoration: underline;
+}
+
+.ApplicationBigLinks
+{
+	font-size: 100%;
+	color: #053253;
+	font-family: Arial, Verdana, 'Microsoft Sans Serif';
+	background-color: transparent;
+	cursor: hand;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.ApplicationBigLinks:hover
+{ 
+	text-decoration: underline;
+}
+
+.ApplicationFlashLinks
+{
+	font-size: 90%;
+	color: red;
+	font-family: Arial, Verdana, 'Microsoft Sans Serif';
+	background-color: transparent;
+	cursor: hand;
+	text-decoration: blink;
+	font-weight: bolder;
+}
+
+.ApplicationFlashLinks:hover
+{ 
+	text-decoration: underline;
+}
+
+.accordionHeader
+{
+	background-color: #cccccc;
+	border: 1px solid #57566F;
+	color: #053253;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 100%;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+h1
+{
+	background-color: #cccccc;
+	border: 1px solid #57566F;
+	color: #053253;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 100%;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+.expanderContainer
+{
+	padding-top: 0;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+.expanderPanel
+{
+	 Width: 100%; 
+	 Height: 100%;	
+}
+
+.expanderTable
+{
+	background-color: #ffffff;
+	border: 1px dashed #57566F;
+	border-top: none;
+	padding: 5px;
+	padding-top: 10px;
+	width: 100%;
+}
+
+.expanderDiv
+{
+	overflow: auto;
+	width: 100%;
+	height: 0;
+}
+
+.expandedDiv
+{
+	overflow: auto;
+	width: 100% ;
+	height: 100%;	
+}
+
+.hideButton
+{
+	height: 0;
+}
+
+#master_content .accordionHeader a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+
+#master_content .accordionHeader a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.accordionContent
+{
+	background-color: #ffffff;
+	border: 1px dashed #57566F;
+	border-top: none;
+	padding: 5px;
+	padding-top: 10px;
+}
+
+.summaryTextHeaders 
+{
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 80%;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.summaryText 
+{
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 80%;
+	color: black;
+	text-decoration: none;
+}
+
+.collapsePanel {
+	
+	background-color: white;
+	overflow: hidden;
+}
+
+.popupHover
+{
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #99cccc;
+}
+
+.QuestionText
+{
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 95%;
+	font-weight: bold;
+	color: #053253;
+	text-decoration: none;
+	cursor: hand;
+	
+}
+
+.AnswerText
+{
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 95%;
+	color: black;
+	text-decoration: none;	
+}
+
+.UserControl
+{
+	border-right: #000000 thin solid;
+	border-top: #000000 thin solid;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 100%;
+	border-left: #000000 thin solid;
+	color: #0000ff;
+	border-bottom: #000000 thin solid;
+	background-color: #dcdcdc;
+}
+
+.TransactionNumberText
+{
+	font-weight: bold;
+	font-size: 100%;
+	color: #cc0000;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.LoginTable
+{
+	border-right: #003399 1px solid;
+	border-top: #003399 1px solid;
+	border-left: #003399 1px solid;
+	border-bottom: #003399 1px solid;
+	background-color: #dcdcdc;
+}
+
+.LoginHeaderText
+{
+	font-weight: normal;
+	font-size: 110%;
+	color: #003399;
+	font-style: italic;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.LoginHelpText
+{
+	font-weight: bold;
+	font-size: 80%;
+	color: #003399;
+	font-style: italic;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.LoginButton
+{
+	color: #003399;
+	background-color: #999999;
+	border-right: #999999 1px solid;
+	border-top: #999999 1px solid;
+	border-left: #999999 1px solid;
+	border-bottom: #999999 1px solid;
+}
+
+.LoginButton:hover
+{
+	color: #003399;
+	background-color: #999999;
+	border-right: #ffcc33 1px solid;
+	border-top: #ffcc33 1px solid;
+	border-left: #ffcc33 1px solid;
+	border-bottom: #ffcc33 1px solid;
+}
+
+.LoginText
+{
+	font-size: 95%;
+	color: #003399;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.HomePageTable
+{
+	background-color: #dcdcdc;
+}
+
+.HomePage
+{
+	font-weight: bold;
+	font-size: 110%;
+	color: #003399;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.HomePageText
+{
+	font-weight: bold;
+	font-size: 110%;
+	color: #003399;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.CommTable
+{
+	border-right: #003399 1px solid;
+	border-top: #003399 1px solid;
+	border-left: #003399 1px solid;
+	border-bottom: #003399 1px solid;
+	background-color: #dcdcdc;	
+	font-size: 100%;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.HoverMenu
+{
+	border-right: #cccccc 1px solid;
+	border-top: #cccccc 1px solid;
+	border-left: #cccccc 1px solid;
+	border-bottom: #cccccc 1px solid;
+	background-color: #b1ced0;
+	font-size: 80%;
+	color: #003399;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.HoverMenu a
+{ 
+	cursor: hand;
+	text-decoration: underline;
+}
+
+.VisaGrantDenyRadio
+{
+	border-right: #666666 1px solid;
+	border-top: #666666 1px solid;
+	font-weight: bold;
+	border-left: #666666 1px solid;
+	border-bottom: #666666 1px solid;
+	background-color: #dcdcdc;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 110%;
+	color: #053253;
+}
+
+.Declarationtable
+{
+	border-right: #003399 1px solid;
+	border-top: #003399 1px solid;
+	font-size: 80%;
+	border-left: #003399 1px solid;
+	color: black;
+	border-bottom: #003399 1px solid;
+}
+
+.DeclarationHeaders
+{
+	font-weight: bold;
+	font-size: 100%;
+	text-transform: capitalize; 
+}
+
+.DeclarationHeaders1
+{
+	font-weight: bold;
+	font-size: 100%;
+	text-transform: none;
+}
+
+.CustomeMessageText
+{
+	font-weight: bolder;
+	font-size: 100%;
+	text-transform: none;
+	color: #073566;
+	font-family: Arial, Verdana, 'Microsoft Sans Serif';
+}
+
+h1
+{
+	background-color: #cccccc;
+	border: 1px solid #57566F;
+	color: #053253;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 100%;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+.expanderContainer
+{
+	padding-top: 0;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+.expanderPanel
+{
+	 Width: 100%;  
+	 Height: 100%;	
+}
+
+.expanderTable
+{
+	background-color: #ffffff;
+	border: 1px dashed #57566F;
+	border-top: none;
+	padding: 5px;
+	padding-top: 10px;
+	width: 100%;
+}
+
+.expanderDiv
+{
+	overflow: auto;
+	width: 100%;
+	height: 0;
+}
+
+.expandedDiv
+{
+	overflow: auto;
+	width: 100%;
+	height: 100%;	
+}
+
+.onlineExpanderDiv
+{
+	overflow: auto;
+	width: 100%;
+	height: 0;
+}
+
+.onlineExpandedDiv
+{
+	overflow: auto;
+	width: 100% ;
+	height: 100%;	
+}
+
+.onlyPrintVisible
+{
+	DISPLAY: none;
+}
+
+.helpTip
+{
+	DISPLAY: none;
+	background-color: #FFF8C6;	
+	text-align: left;
+	margin-left: 0;
+}
+
+.mandatoryInformation
+{
+	color: Red;
+	font-size: 80%;	
+}
+
+.mandatoryField {
+    color: red;
+}
+
+.RepeaterGrid
+{
+	background-color: #FFFFFF;
+	border: 1px solid #C0C0C0;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-bottom-width: 0;
+	cursor: pointer;
+	font-family: Arial, 'Microsoft Sans Serif', Verdana;
+	font-size: 100%;
+}
+
+.RepeaterTable
+{ 
+    border-right: 1px solid #C0C0C0;
+    border-left: 1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0; 
+}
+
+.BlueLink
+{
+	color: Blue;
+}
+
+.DeclarationRedHeaders
+{
+	font-weight: bold;
+	font-size: 100%;
+	text-transform: capitalize;
+    color: red; 
+}
+
+.MinorBCHeadingText
+{
+	font-weight: bolder;
+	font-size: 100%;
+    color: black;
+	font-family: Arial, Verdana, 'Microsoft Sans Serif';
+}
+
+.MinorBCHeadingTextLeftMargin
+{
+	font-weight: bolder;
+	font-size: 100%;
+    color: black;
+	font-family: Arial, Verdana, 'Microsoft Sans Serif';
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.UnderLineText 
+{
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.SummaryDeclarationHeaders
+{
+	font-weight: bold;
+	font-size: 120%;
+	text-transform: capitalize; 
+}
+
+.DeclarationHeadersNormal
+{
+	font-weight: bold;
+	font-size: 100%;
+}
+
+.HighlightedContainer 
+{
+    border: peru solid thin; 
+    padding: 20px; 
+    background-color: rgb(255, 248, 198);    
+}
+
+.LogoDiv 
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
